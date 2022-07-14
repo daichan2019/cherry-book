@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative '../lib/gate'
 
-class GateTestt < Minitest::Test
+class GateTest < Minitest::Test
   def test_gate
     umeda = Gate.new(:umeda)
     juso = Gate.new(:juso)
