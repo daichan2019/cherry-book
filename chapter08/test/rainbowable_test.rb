@@ -5,6 +5,7 @@ class RainrowableTest < Minitest::Test
   def setup
     String.include Rainbowable
     Array.include Rainbowable
+    Object.include Rainbowable
   end
 
   def test_rainbow
